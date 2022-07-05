@@ -13,7 +13,7 @@ public class NextPlayerText : MonoBehaviour
         gameController = GameObject.Find("GameManager").GetComponent<GameController>();
         text = this.GetComponent<Text>();
     }
-
+    /*
     // Update is called once per frame
     void Update()
     {
@@ -31,4 +31,5 @@ public class NextPlayerText : MonoBehaviour
         }
         text.text = "éüÇÃî‘ÅF" + colorText;
     }
+    */
 }
