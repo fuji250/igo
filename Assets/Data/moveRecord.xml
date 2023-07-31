@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="testxsl.xsl"?>
+<demoXmlData>
+	<list>
+		<nextMove id="0">
+			<color>None</color>
+			<x>5</x>
+			<z>5</z>
+			<time>3</time> <!--あとで9.8にする-->
+		</nextMove>
+		<nextMove id="1">
+			<color>Black</color>
+			<x>2</x>
+			<z>1</z>
+			<time>1.4</time>
+		</nextMove>
+		<nextMove id="2">
+			<color>White</color>
+			<x>2</x>
+			<z>2</z>
+			<time>0.6</time>
+		</nextMove>
+		<nextMove id="3">
+			<color>Black</color>
+			<x>4</x>
+			<z>2</z>
+			<time>0.5</time>
+		</nextMove>
+		<nextMove id="4">
+			<color>White</color>
+			<x>3</x>
+			<z>1</z>
+			<time>1.2</time>
+		</nextMove>
+		<nextMove id="5">
+			<color>Black</color>
+			<x>9</x>
+			<z>2</z>
+			<time>0.1</time>
+		</nextMove>
+		<nextMove id="6">
+			<color>White</color>
+			<x>1</x>
+			<z>1</z>
+			<time>1.2</time>
+		</nextMove>
+		<nextMove id="7">
+			<color>White</color>
+			<x>4</x>
+			<z>3</z>
+			<time>0.1</time>
+		</nextMove>
+		<nextMove id="8">
+			<color>Black</color>
+			<x>3</x>
+			<z>8</z>
+			<time>1.0</time>
+		</nextMove>
+		<nextMove id="9">
+			<color>White</color>
+			<x>3</x>
+			<z>2</z>
+			<time>1.1</time>
+		</nextMove>
+		<nextMove id="10">
+			<color>White</color>
+			<x>5</x>
+			<z>2</z>
+			<time>0.3</time>
+		</nextMove>
+		<nextMove id="11">
+			<color>Black</color>
+			<x>6</x>
+			<z>2</z>
+			<time>0.7</time>
+		</nextMove>
+		<nextMove id="12">
+			<color>Black</color>
+			<x>7</x>
+			<z>8</z>
+			<time>0.1</time>
+		</nextMove>
+		<nextMove id="13">
+			<color>White</color>
+			<x>4</x>
+			<z>1</z>
+			<time>0.4</time>
+		</nextMove>
+		<nextMove id="14">
+			<color>Black</color>
+			<x>3</x>
+			<z>4</z>
+			<time>1.1</time>
+		</nextMove>
+		<nextMove id="15">
+			<color>White</color>
+			<x>3</x>
+			<z>7</z>
+			<time>1.1</time>
+		</nextMove>
+		<nextMove id="16">
+			<color>White</color>
+			<x>4</x>
+			<z>8</z>
+			<time>0.1</time>
+		</nextMove>
+		<nextMove id="17">
+			<color>Black</color>
+			<x>2</x>
+			<z>1</z>
+			<time>0.9</time>
+		</nextMove>
+		<nextMove id="18">
+			<color>White</color>
+			<x>3</x>
+			<z>9</z>
+			<time>1.1</time>
+		</nextMove>
+		<nextMove id="19">
+			<color>White</color>
+			<x>2</x>
+			<z>8</z>
+			<time>0.2</time>
+		</nextMove>
+		<nextMove id="20">
+			<color>Black</color>
+			<x>1</x>
+			<z>2</z>
+			<time>1.3</time>
+		</nextMove>
+		<nextMove id="21">
+			<color>Black</color>
+			<x>1</x>
+			<z>5</z>
+			<time>0.2</time>
+		</nextMove>
+		<nextMove id="22">
+			<color>White</color>
+			<x>1</x>
+			<z>3</z>
+			<time>1.0</time>
+		</nextMove>
+		<nextMove id="23">
+			<color>White</color>
+			<x>2</x>
+			<z>2</z>
+			<time>1.0</time>
+		</nextMove>
+		<nextMove id="24">
+			<color>Black</color>
+			<x>9</x>
+			<z>5</z>
+			<time>0.2</time>
+		</nextMove>
+		<nextMove id="25">
+			<color>White</color>
+			<x>2</x>
+			<z>2</z>
+			<time>0.9</time>
+		</nextMove>
+		<nextMove id="26">
+			<color>White</color>
+			<x>1</x>
+			<z>1</z>
+			<time>0.8</time>
+		</nextMove>
+		<nextMove id="27">
+			<color>Black</color>
+			<x>5</x>
+			<z>7</z>
+			<time>1.0</time>
+		</nextMove>
+		<nextMove id="28">
+			<color>White</color>
+			<x>3</x>
+			<z>1</z>
+			<time>1.0</time>
+		</nextMove>
+		<nextMove id="29">
+			<color>Black</color>
+			<x>4</x>
+			<z>2</z>
+			<time>0.1</time>
+		</nextMove>
+		<nextMove id="30">
+			<color>White</color>
+			<x>2</x>
+			<z>2</z>
+			<time>1.1</time>
+		</nextMove>
+		<nextMove id="31">
+			<color>White</color>
+			<x>1</x>
+			<z>1</z>
+			<time>0.8</time>
+		</nextMove>
+		<nextMove id="32">
+			<color>Black</color>
+			<x>4</x>
+			<z>3</z>
+			<time>1.0</time>
+		</nextMove>
+		<nextMove id="33">
+			<color>White</color>
+			<x>3</x>
+			<z>2</z>
+			<time>0.8</time>
+		</nextMove>
+		<nextMove id="34">
+			<color>White</color>
+			<x>4</x>
+			<z>1</z>
+			<time>0.2</time>
+		</nextMove>
+		<nextMove id="35">
+			<color>Black</color>
+			<x>3</x>
+			<z>9</z>
+			<time>0.9</time>
+		</nextMove>
+		<nextMove id="36">
+			<color>White</color>
+			<x>5</x>
+			<z>2</z>
+			<time>0.9</time>
+		</nextMove>
+		<nextMove id="37">
+			<color>White</color>
+			<x>5</x>
+			<z>3</z>
+			<time>0.4</time>
+		</nextMove>
+		<nextMove id="38">
+			<color>Black</color>
+			<x>1</x>
+			<z>7</z>
+			<time>0.6</time>
+		</nextMove>
+		<nextMove id="39">
+			<color>White</color>
+			<x>4</x>
+			<z>4</z>
+			<time>1.0</time>
+		</nextMove>
+		<nextMove id="40">
+			<color>White</color>
+			<x>3</x>
+			<z>3</z>
+			<time>0.2</time>
+		</nextMove>
+		<nextMove id="41">
+			<color>Black</color>
+			<x>5</x>
+			<z>9</z>
+			<time>1.3</time>
+		</nextMove>
+		<nextMove id="42">
+			<color>Black</color>
+			<x>4</x>
+			<z>9</z>
+			<time>0.1</time>
+		</nextMove>
+		<nextMove id="43">
+			<color>White</color>
+			<x>4</x>
+			<z>7</z>
+			<time>1.0</time>
+		</nextMove>
+		<nextMove id="44">
+			<color>White</color>
+			<x>5</x>
+			<z>6</z>
+			<time>1.0</time>
+		</nextMove>
+		<nextMove id="45">
+			<color>White</color>
+			<x>6</x>
+			<z>7</z>
+			<time>0.1</time>
+		</nextMove>
+		<nextMove id="46">
+			<color>Black</color>
+			<x>2</x>
+			<z>5</z>
+			<time>0.8</time>
+		</nextMove>
+		<nextMove id="47">
+			<color>White</color>
+			<x>5</x>
+			<z>8</z>
+			<time>0.7</time>
+		</nextMove>
+		<nextMove id="48">
+			<color>Black</color>
+			<x>3</x>
+			<z>5</z>
+			<time>0.3</time>
+		</nextMove>
+		<nextMove id="49">
+			<color>White</color>
+			<x>6</x>
+			<z>9</z>
+			<time>1.0</time>
+		</nextMove>
+		<nextMove id="50">
+			<color>White</color>
+			<x>5</x>
+			<z>8</z>
+			<time>0.7</time>
+		</nextMove>
+		<nextMove id="51">
+			<color>Black</color>
+			<x>2</x>
+			<z>9</z>
+			<time>0.7</time>
+		</nextMove>
+		<nextMove id="52">
+			<color>White</color>
+			<x>4</x>
+			<z>8</z>
+			<time>0.3</time>
+		</nextMove>
+		<nextMove id="53">
+			<color>Black</color>
+			<x>3</x>
+			<z>7</z>
+			<time>0.7</time>
+		</nextMove>
+		<nextMove id="54">
+			<color>White</color>
+			<x>3</x>
+			<z>8</z>
+			<time>0.6</time>
+		</nextMove>
+		<nextMove id="55">
+			<color>Black</color>
+			<x>7</x>
+			<z>6</z>
+			<time>0.3</time>
+		</nextMove>
+		<nextMove id="56">
+			<color>White</color>
+			<x>2</x>
+			<z>8</z>
+			<time>1.0</time>
+		</nextMove>
+		<nextMove id="57">
+			<color>White</color>
+			<x>1</x>
+			<z>9</z>
+			<time>0.3</time>
+		</nextMove>
+		<nextMove id="58">
+			<color>Black</color>
+			<x>8</x>
+			<z>7</z>
+			<time>1.3</time>
+		</nextMove>
+		<nextMove id="59">
+			<color>White</color>
+			<x>3</x>
+			<z>8</z>
+			<time>1.0</time>
+		</nextMove>
+		<nextMove id="60">
+			<color>Black</color>
+			<x>6</x>
+			<z>7</z>
+			<time>0.1</time>
+		</nextMove>
+		<nextMove id="61">
+			<color>White</color>
+			<x>4</x>
+			<z>7</z>
+			<time>1.7</time>
+		</nextMove>
+		<nextMove id="62">
+			<color>Black</color>
+			<x>4</x>
+			<z>6</z>
+			<time>3.0</time>
+		</nextMove>
+	</list>
+</demoXmlData>
