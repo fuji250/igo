@@ -25,7 +25,7 @@ public class LineController : MonoBehaviour
     private int m_MaxBlockNum = 16;
 
     /// <summary>
-    /// Line��񊈐�����������Z�������肷��
+    /// Lineの調節
     /// </summary>
     /// <param name="p_hLength">�Ֆʂ̉��̃}�X��</param>
     /// <param name="p_vLength">�Ֆʂ̏c�̃}�X��</param>

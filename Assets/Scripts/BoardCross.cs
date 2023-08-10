@@ -714,6 +714,14 @@ public class BoardCross: MonoBehaviour, IComparable<BoardCross>
     /// <returns></returns>
     public bool IsSuicide(Status nextMove)
     {
+        //ここ急遽追加したので修正の必要あり
+        
+        // 空点でないと置けない
+        if (boardStatus != Status.None)
+        {
+            return false;
+        }
+        
         // 仮に石を置く
         BoardStatus = nextMove;
 
@@ -766,6 +774,7 @@ public class BoardCross: MonoBehaviour, IComparable<BoardCross>
         // 履歴作るのちょっと面倒くさい
         // どうせ石を取った石も同時に無くなるならコウは存在しなくなるので省略
 
+        
         // 自殺手なら置けない
         if (IsSuicide(nextMove))
         {

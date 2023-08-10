@@ -10,11 +10,11 @@ public class GameController : Singleton<GameController>
     /// <summary>
     /// 縦方向のマス数   
     /// </summary>
-    [SerializeField, Range(2, 16)] private int VerticalNum = 9;
+    [SerializeField, Range(2, 16)] private int VerticalNum = default;
     /// <summary>
     /// 横方向のマス目
     /// </summary>
-    [SerializeField, Range(2, 16)] private int HorizontalNum = 9;
+    [SerializeField, Range(2, 16)] private int HorizontalNum = default;
 
     /// <summary>
     /// Lineを制御するため
@@ -106,6 +106,17 @@ public class GameController : Singleton<GameController>
     /// </summary>
     public GameType currentGameType = GameType.PlayWithComputer;
 
+
+
+
+
+
+    public GameObject errorEffect;
+    
+    
+    
+    
+
     protected override void Awake()
     {
         base.Awake();
@@ -192,6 +203,19 @@ public class GameController : Singleton<GameController>
 
                             // 最後の手を打った時間をリセット
                             timeFromLastMove = 0f;
+                        }
+                        else　if(board.IsSuicide(playerColor))
+                        {
+                            
+                            // エラー音
+                            AudioController.Instance.PlayError();
+                            
+                            //Vector3 posi = board.transform.position + new Vector3(0, 0.2f, 0);
+                            Vector3 posi = board.transform.position;
+
+                            //　置けないエフェクト追加
+                            GameObject effect = Instantiate(errorEffect);
+                            effect.transform.position = posi;
                         }
                         else
                         {
@@ -368,7 +392,7 @@ public class GameController : Singleton<GameController>
             GUILayout.Label($"{OpponentController.Instance.SpanAverage:0.00} sec");
             GUILayout.EndHorizontal();
             OpponentController.Instance.SpanAverage = GUILayout.HorizontalSlider(OpponentController.Instance.SpanAverage, 0f, 10f);
-
+            
             // 移動可
             GUI.DragWindow();
         }, "Game Controller (Debug)");
